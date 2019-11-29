@@ -1,0 +1,11 @@
+{
+  "name": "Video-Stream-Client-Code-Server",
+  "main": "simple-signal-client.min.js",
+  "scripts": {
+    "serve": "simplehttpserver client-code-server > /dev/null"
+  },
+  "dependencies": {
+    "simplehttpserver": "^0.3.0",
+    "socket.io": "^2.2.0"
+  }
+}
